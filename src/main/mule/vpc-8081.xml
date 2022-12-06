@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="vpc-8081Flow" doc:id="790a9c94-58e6-422f-8701-2dff2b0ab2df" >
 		<http:listener doc:name="Listener" doc:id="76a25d71-7c98-47e2-9ee7-50139e7d4676" config-ref="HTTP_Listener_config" path="azure-demo"/>
-		<set-payload value="#['response from application 8081 App']" doc:name="Set Payload" doc:id="a80a8f04-b501-4194-87f9-d67a68f5eaa2" />
+		<set-payload value="#['response from application 8081 App 2']" doc:name="Set Payload" doc:id="a80a8f04-b501-4194-87f9-d67a68f5eaa2" />
 	</flow>
 </mule>
